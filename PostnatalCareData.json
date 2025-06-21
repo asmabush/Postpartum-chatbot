@@ -1,0 +1,193 @@
+{
+  "ourIntents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "what's up", "hi there", "hey bot"],
+      "responses": ["Hello, mama! How can I help you today?", "Hi new lovely mama! How can I support you?", "Welcome! I'm here for you."]
+    },
+    {
+      "tag": "baby_sleep",
+      "patterns": [
+        "my baby can't sleep", "baby is not sleeping", "infant sleep issue",
+        "how to help baby sleep", "baby cries at night", "sleep training", "should I let my baby cry"
+      ],
+      "responses": [
+        "Newborns often wake frequently. Try a calm bedtime routine, swaddling, and white noise.",
+        "Sleep training may help after 4-6 months. Try a calm bedtime routine, swaddling, and white noise.",
+        "Babies thrive on routine. Keeping lights low and feedings quiet at night helps reset their sleep clock."
+      ]
+    },
+    {
+      "tag": "breastfeeding",
+      "patterns": [
+        "baby not latching", "how to breastfeed", "breastfeeding tips", "pain while breastfeeding",
+        "how to increase milk supply", "milk supply low", "how to store breastmilk", "pumping milk"
+      ],
+      "responses": [
+        "Make sure the baby's mouth covers both the nipple and areola. Try different breastfeeding positions.",
+        "Hydration, nutrition, and skin-to-skin contact can boost supply. Pumping after feeds helps too.",
+        "To store breast milk: Room temp for 4 hrs, fridge for 4 days, freezer for 6+ months."
+      ]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": [
+        "i feel sad", "i can't stop crying", "postpartum depression", "i'm overwhelmed", "i feel anxious",
+        "i'm not bonding with my baby", "i feel empty", "why am i crying so much"
+      ],
+      "responses": [
+        "You're not alone. Many moms feel this way. Talk to a counselor or doctor—you deserve support.",
+        "Postpartum depression is real. It’s okay to ask for help, \n Talk to close friends about your feelings and concerns.\n Try to adopt a routine of self care by getting sufficient sleep/rest, eating healthily",
+        "You're doing your best, and that’s enough. Even taking this step is brave. Talk to someone trusted."
+      ]
+    },
+    {
+      "tag": "nutrition",
+      "patterns": [
+        "what should i eat after giving birth", "foods to avoid after delivery", "postnatal diet",
+        "can i drink coffee while breastfeeding", "healthy meals for new moms", "i have no time to cook"
+      ],
+      "responses": [
+        "Focus on protein, leafy greens, whole grains, and lots of water. Oats and fennel can help with milk supply.",
+        "Limit caffeine to 1–2 cups/day if breastfeeding. Avoid alcohol or check with your doctor first.",
+        "Meal-prepping on weekends or trying simple snacks like boiled eggs, nuts, and fruit can help during busy days."
+      ]
+    },{
+  "tag": "postpartum_bleeding",
+  "patterns": [
+    "when will bleeding stop", "postpartum bleeding", "how long does postpartum bleeding last"
+  ],
+  "responses": [
+    "It’s normal to bleed for 4–6 weeks after delivery. Use pads, not tampons, and rest as much as possible."
+  ]
+},
+{
+  "tag": "postpartum_pain",
+  "patterns": [
+    "i have pain after delivery", "my stitches hurt", "abdominal pain after birth", "pain after birth"
+  ],
+  "responses": [
+    "Always consult your doctor about pain, especially if it’s sharp or doesn’t improve.",
+    "If the pain is mild, gentle walking is usually okay after a few days unless advised otherwise by your healthcare provider."
+  ]
+},
+{
+  "tag": "exercise_after_birth",
+  "patterns": [
+    "when can i exercise after birth", "when can i start exercising after delivery", "postpartum exercise"
+  ],
+  "responses": [
+    "Most women can start gentle exercise like walking after a few days, but it's best to wait 6 weeks before intense workouts. Always check with your doctor first."
+  ]
+},
+{
+  "tag": "healing_time",
+  "patterns": [
+    "how long does it take to heal", "postnatal healing time", "how long to recover after birth"
+  ],
+  "responses": [
+    "Healing time varies for each woman. Many feel better within a few weeks, but full recovery can take longer. Be kind to your body—it just did something incredible."
+  ]
+}
+,{
+      "tag": "bonding_with_baby",
+      "patterns": [
+        "i don't feel connected to my baby", "how to bond with my baby", "is it normal to feel distant",
+        "my baby doesn't smile", "i feel like a bad mom"
+      ],
+      "responses": [
+        "Bonding can take time. Try cuddling skin-to-skin, talking to your baby, and making eye contact during feeding.",
+        "You’re not a bad mom. Every journey is different. Babies sense love in your care, not perfection.",
+        "Singing, massaging, and simply holding your baby can strengthen your connection. You're already doing enough."
+      ]
+    },
+     {
+        "tag": "noanswer",
+        "patterns": [],
+        "responses": [
+                   "Sorry, can't understand you",
+                   "Please give me more info",
+                   "Not sure I understand"
+               ]        
+     },
+           {
+               "tag": "options",
+               "patterns": [
+                   "How you could help me",
+                   "What you can do?",
+                   "What help you provide?",
+                   "I need your help",
+                   "help me"
+               ],
+               "responses": [
+                   "I'm here to support you during your postnatal journey! Here’s what I can help with:\n1. I can answer questions about newborn care and feeding.\n2. I provide tips on postnatal recovery and self-care for mothers.\n3. I can guide you on baby sleep routines and soothing techniques.\n4. I offer advice on mental health and emotional well-being after childbirth.\n5. I can share breastfeeding tips and troubleshooting help.\n6. I’m here to listen and provide encouragement whenever you need it.\nFor feedback or suggestions to improve, please contact my creator bushaalas@example.com. I’m here for you every step of the way!"
+               ],
+               "context": [
+                   ""
+               ]
+           },
+    {
+  "tag": "feeding_frequency",
+  "patterns": [
+    "how many times should i feed my baby", "baby feeding schedule", "how often to feed baby", "feeding frequency"
+  ],
+  "responses": [
+    "Newborns typically feed 8–12 times a day. It's important to feed on demand and watch for hunger cues."
+  ]
+},
+{
+  "tag": "diaper_change_frequency",
+  "patterns": [
+    "how often to change diaper", "how many wet diapers a day", "when to change baby's diaper"
+  ],
+  "responses": [
+    "You should change your baby's diaper as soon as it's wet or soiled. By day 5, babies usually have at least 6 wet diapers a day."
+  ]
+},
+{
+  "tag": "baby_poop_color",
+  "patterns": [
+    "baby poop color", "is green poop normal", "what color is baby poop"
+  ],
+  "responses": [
+    "Green poop can be normal if your baby is feeding well. However, if you notice other symptoms like fever or dehydration, please consult your pediatrician."
+  ]
+},
+{
+  "tag": "baby_spit_up",
+  "patterns": [
+    "my baby spits milk", "baby spit up", "is spit up normal"
+  ],
+  "responses": [
+    "Frequent spit-up is normal in newborns. But if your baby isn’t gaining weight or cries a lot after feeds, please check with your doctor."
+  ]
+}
+,{
+               "tag": "no",
+               "patterns": [
+                   "no",
+                   "nope"
+               ],
+               "responses": [
+                   "ok"
+               ]
+           },{
+               "tag": "suggest",
+               "patterns": [
+                   "you are useless","useless","suggest","suggestions","you are bad"
+               ],
+               "responses": [
+                   "Please mail your suggestions to creator bushaalas@gmail.com. Thank you for helping me improve!"
+               ]
+           },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "thanks", "thank you", "that helped", "see you", "you’re amazing"],
+      "responses": [
+        "You're doing a beautiful job, mama. Come back anytime 💜",
+        "Sending you hugs and strength. Take care!",
+        "So glad I could help. Keep going—you've got this!"
+      ]
+    }
+  ]
+}
